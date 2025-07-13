@@ -1,5 +1,5 @@
-let count = process.argv.length-2;
-if (count === 0){
+let count = process.argv;
+if (process.argv[2] === undefined){
     console.log("No argument");
 }
 else
