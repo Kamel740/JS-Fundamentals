@@ -1,5 +1,5 @@
 let count = parseInt(process.argv[2]);
-i=0;
+let i=0;
 
 if (Number.isNaN(count)){
     console.log('Missing number of occurrences');
